@@ -84,7 +84,7 @@
 ---
 
 ### 🔹 Example Training Plan  
-8-week **cycling training plan** (80 km, 3200 m elevation gain).  
+8-week **cycling training plan** (Goal: Complete a route of 80 km and 3200 m positive elevation).  
 ![Plan](https://raw.githubusercontent.com/alejo1630/seneca_sport/refs/heads/main/Img/Plan.jpg)
 
 ---
@@ -124,3 +124,7 @@ This project is distributed under the **MIT License**.
 You are free to use, modify, and share it, as long as proper credit is given.
 
 ---
+
+## 👥 Authors & Acknowledgments  
+
+This project was developed by **Miguel Andreas Barker, Alejandro Castellanos, Angela Olarte, and John Ortiz** as part of the **"Artificial Intelligence for Data Science" course at Universidad de los Andes (2025)**.
