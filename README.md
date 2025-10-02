@@ -57,7 +57,7 @@
 - **SenecaCoach_Prototype_V2.ipynb**  
   Main prototype of the **application**:  
   - Integrates **medical documents, Strava data, and user queries**  
-  - Processes information using **Large Language Models (LLMs) and RAG**  
+  - Processes information using **Large Language Models (LLMs - GPT OSS 20B) and RAG**  
   - Generates **personalized training plans**  
   - Links directly with the route planner  
   - Provides a **web interface** built with **Gradio**  
