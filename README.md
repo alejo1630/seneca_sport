@@ -1,11 +1,8 @@
-# 🏋️‍♂️ Séneca Coach
+#  Séneca Coach
 
 [![Repository](https://img.shields.io/badge/GitHub-SenecaCoach-blue?logo=github)](https://github.com/alejo1630/seneca_sport/tree/main)
 
-**Séneca Coach** is a digital assistant prototype focused on **health and sports training**.  
-The application integrates **Strava data**, **medical documents**, and **user queries** to generate **personalized training plans**, combined with a **sports route planner** that designs routes tailored to the type of exercise and session objectives.  
-
-Built with **Python**, **Gradio**, **Sports APIs**, and **Large Language Models (LLMs)**.
+**Séneca Coach** is a digital assistant prototype focused on **health and sports training**. The application integrates **Strava data**, **medical documents**, and **user queries** to generate **personalized training plans**, combined with a **sports route planner** that designs routes tailored to the type of exercise and session objectives. Built with **Python**, **Gradio**, **Sports APIs**, and **Large Language Models (LLMs)**.
 
 ---
 
@@ -87,12 +84,12 @@ Built with **Python**, **Gradio**, **Sports APIs**, and **Large Language Models 
 ---
 
 ### 🔹 Example Training Plan  
-8-week **cycling adventure plan** (80 km, 3200 m elevation gain).  
+8-week **cycling training plan** (80 km, 3200 m elevation gain).  
 ![Plan](https://raw.githubusercontent.com/alejo1630/seneca_sport/refs/heads/main/Img/Plan.jpg)
 
 ---
 
-### 🔹 Generated Route  
+### 🔹 Training route obtained with the application generator
 ![Route](https://raw.githubusercontent.com/alejo1630/seneca_sport/refs/heads/main/Img/Route.jpg)
 
 ---
@@ -115,37 +112,6 @@ Built with **Python**, **Gradio**, **Sports APIs**, and **Large Language Models 
 
 ---
 
-## 🚀 Installation & Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/alejo1630/seneca_sport.git
-   cd seneca_sport
-   ```
-
-2. Create a virtual environment and install dependencies:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # Linux/Mac
-   venv\Scripts\activate      # Windows
-
-   pip install -r requirements.txt
-   ```
-
-3. Configure **Strava API credentials** in a `.env` file:
-   ```
-   STRAVA_CLIENT_ID=xxxxx
-   STRAVA_CLIENT_SECRET=xxxxx
-   STRAVA_REFRESH_TOKEN=xxxxx
-   ```
-
-4. Run the notebooks in Jupyter or launch the Gradio app:
-   ```bash
-   jupyter notebook
-   ```
-
----
-
 ## 📈 Future Improvements
 
 - Integration with **Garmin Connect**  
@@ -153,18 +119,6 @@ Built with **Python**, **Gradio**, **Sports APIs**, and **Large Language Models 
 - Nutrition recommendations linked to training plans  
 - Migration to a **Streamlit** or **FastAPI dashboard** for cloud deployment  
 
----
-
-## 👤 Author
-
-**Alejandro Castellanos Vargas**  
-📍 Soacha, Colombia  
-🔗 [LinkedIn](https://www.linkedin.com/in/alejandro-castellanos-vargas)  
-🔗 [GitHub](https://github.com/alejo1630)  
-
----
-
-## 📜 License
 
 This project is distributed under the **MIT License**.  
 You are free to use, modify, and share it, as long as proper credit is given.
